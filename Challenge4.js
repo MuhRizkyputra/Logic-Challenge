@@ -11,8 +11,7 @@ function indexPrime(param1) {
                 confirm = false;
             }
         }
-        if (confirm) 
-        {
+        if (confirm) {
             result.push(prima);
         }
         prima++;
@@ -20,7 +19,7 @@ function indexPrime(param1) {
     return result[result.length - 1];
 }
 
-console.log(indexPrime(4))
-console.log(indexPrime(500))
-console.log(indexPrime(37886))
+console.log(indexPrime(4));
+console.log(indexPrime(500));
+console.log(indexPrime(37886));
 
